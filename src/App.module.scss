@@ -1,0 +1,17 @@
+.parent {
+  @apply border border-purple-500 rounded-lg pb-10 w-full shadow-xl;
+
+  .parent__head {
+    @apply text-2xl font-bold text-center text-purple-500;
+  }
+
+  input{
+    @apply block w-full border-2 border-purple-600 my-2;
+  }
+
+  .parent__btn{
+    @apply mt-10 bg-purple-500 bg-opacity-60 py-3 px-14 rounded-xl
+    block mx-auto hover:bg-opacity-100 transition-all md:bg-green-300;
+    transition: all .2s linear;
+  }
+}
